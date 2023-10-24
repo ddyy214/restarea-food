@@ -1,0 +1,9 @@
+post http://localhost:5000/user/login
+# json 형식으로 요청
+Content-Type: application/json; charset=UTF-8
+# body에 담기 위해선 한줄 띄움
+
+{
+    "user_email": "gogo@na.com",
+    "pw": "gogo@222"
+}
